@@ -8,7 +8,7 @@ import { PartBanner } from '../components/PartBanner/PartBanner';
 import React from 'react';
 import SEO from '../components/seo';
 import content from '../content/pages/about.json';
-import landingImage from '../images/landing.svg';
+import landingImage from '../images/landing.png';
 import mainSEOdescription from '../content/seo/mainSEOdescription';
 import mainSEOtags from '../content/seo/mainSEOtags';
 
@@ -19,12 +19,11 @@ const About = () => {
     <Layout>
       <SEO
         lang="fi"
-        title="Kurssista | Full stack open 2020"
+        title="Kurssista | React ja node.js"
         description={mainSEOdescription['fi']}
         keywords={[
           ...mainSEOtags,
-          'Avoin yliopisto',
-          'Full stack harjoitustyö',
+          'Tredu',
         ]}
       />
 
@@ -62,9 +61,7 @@ const About = () => {
                 className="link"
                 headingFont
                 text={[
-                  'Osallistujilta edellytetään vahvaa ohjelmointirutiinia, web-ohjelmoinnin ja tietokantojen perustuntemusta, git-versionhallintajärjestelmän peruskäytön hallintaa, kykyä pitkäjänteiseen työskentelyyn sekä valmiutta omatoimiseen tiedonhakuun ja ongelmanratkaisuun. Osallistuminen ei kuitenkaan edellytä kurssilla käsiteltävien tekniikoiden tai Javascript-kielen hallintaa.',
-                  'Kurssin sisällöstä ja suoritustavasta kerrotaan materiaalissa osassa 0, lue ne huolella.',
-                ]}
+                  'Kurssin esitietoina on web-ohjelmoinnin ja tietokantojen perustuntemus, sekä git-versionhallintajärjestelmän peruskäytön hallintaa. Avuksi on myös kyky pitkäjänteiseen työskentelyyn sekä valmius omatoimiseen tiedonhakuun ja ongelmanratkaisuun. Kysy tarkemmat harjoitustöiden palautusohjeet kurssisi opettajalta.']}
               />
             </div>
           </Element>

@@ -16,9 +16,7 @@ export const navigation = {
   ],
   fi: [
     { text: 'Kurssista', path: '/about' },
-    { text: 'Kurssin sisältö', path: '#course-contents' },
-    { text: 'FAQ', path: '/faq' },
-    { text: 'Kurssilla mukana', path: '/companies' },
+    { text: 'Kurssimateriaali', path: '#course-contents' },
   ],
   zh: [
     { text: '关于课程', path: '/zh/about' },

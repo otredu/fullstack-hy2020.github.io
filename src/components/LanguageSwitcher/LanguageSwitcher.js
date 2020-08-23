@@ -21,9 +21,9 @@ const LanguageSwitcher = ({ lang }) => {
     <div className="language-switcher">
       <Language language="fi" active={lang} />
 
-      <Language language="en" active={lang} />
+      {/* <Language language="en" active={lang} />
 
-      <Language language="zh" active={lang} />
+      <Language language="zh" active={lang} /> */}
     </div>
   );
 };

@@ -13,12 +13,13 @@ import cc from '../images/cc.svg';
 import colors from '../colors';
 import content from '../content/pages/main.json';
 import houstonLogo from '../images/Houston_big.svg';
-import landingImage from '../images/landing.svg';
+import landingImage from '../images/landing.png';
 import licenceIcon from '../images/cc-logo.svg';
 import mainSEOdescription from '../content/seo/mainSEOdescription';
 import mainSEOtags from '../content/seo/mainSEOtags';
 import news from '../images/noun_news_1248039.svg';
 import yliopistoLogo from '../images/company_logos/uoh_centre.svg';
+import { withPrefix } from "gatsby";
 
 const IndexPage = () => {
   const {
@@ -55,13 +56,13 @@ const IndexPage = () => {
 
           <SubHeader
             className="col-10"
-            text="Full Stack open 2020"
+            text="Perustuu kurssiin Full Stack open 2020"
             headingLevel="h2"
           />
 
           <a
             className="col-2 centered about__challenge-button spacing--after--mobile"
-            href="/about"
+            href={withPrefix("/about")}
           >
             Aloita kurssi
           </a>
@@ -134,9 +135,6 @@ const IndexPage = () => {
       </Element>
 
       <PartBanner lang="fi" />
-
-      <CompaniesBanner lang="fi" isFrontPage />
-
       <Element flex spaceBetween className="container col-10 spacing--after">
         <TripleBorder
           largeMargin

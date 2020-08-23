@@ -1,9 +1,10 @@
 module.exports = {
+  pathPrefix: `/fullstack`,
   siteMetadata: {
-    title: 'Full Stack open 2020',
+    title: 'React ja node.js derived from Full Stack open 2020',
     description: '',
     author: 'Houston Inc. Consulting oy',
-    siteUrl: 'https://fullstack-hy2020.github.io/',
+    siteUrl: 'https://otredu.github.io/fullstack',
   },
   plugins: [
     {
@@ -34,8 +35,8 @@ module.exports = {
         name: 'gatsby-starter-default',
         short_name: 'starter',
         start_url: '/',
-        background_color: '#e1e1e1',
-        theme_color: '#e1e1e1',
+        background_color: '#96d8e0',
+        theme_color: '#96d8e0',
         display: 'minimal-ui',
         icon: 'src/images/favicon.png',
       },
@@ -89,7 +90,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-canonical-urls`,
       options: {
-        siteUrl: `https://fullstackopen.com`,
+        siteUrl: `https://otredu.github.io/`,
       },
     },
   ],
